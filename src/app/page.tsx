@@ -29,12 +29,12 @@ export default function HomePage() {
                     >
 
 
-                        <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-8 text-white leading-tight">
+                        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 md:mb-8 text-white leading-tight">
                             Meetings, Clarified.<br />
                             {/* <span className="gradient-text">For Your Meetings</span> */}
                         </h1>
 
-                        <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed">
+                        <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8 md:mb-12 max-w-3xl mx-auto leading-relaxed px-4">
                             Velos AI captures every discussion, decision, and follow-up instantly.
                         </p>
 
@@ -115,7 +115,7 @@ export default function HomePage() {
                         </p>
                     </motion.div>
 
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
                         {[
                             {
                                 icon: <Brain className="w-8 h-8 text-purple-600" />,
@@ -340,7 +340,7 @@ export default function HomePage() {
 
             {/* FAQ - Light Background */}
             <section className="py-32 bg-light">
-                <div className="max-w-4xl mx-auto px-6">
+                <div className="max-w-4xl mx-auto px-4 md:px-6">
                     <h2 className="text-5xl md:text-6xl font-bold mb-16 text-center text-gray-900">
                         Frequently Asked Questions
                     </h2>
@@ -365,7 +365,7 @@ export default function HomePage() {
             <section className="py-32 bg-dark-gradient relative overflow-hidden">
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(139,92,246,0.2),transparent_70%)]" />
 
-                <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+                <div className="relative z-10 max-w-4xl mx-auto px-4 md:px-6 text-center">
                     <h2 className="text-5xl md:text-7xl font-bold mb-8 text-white leading-tight">
                         Ready to Transform<br />Your Meetings?
                     </h2>
